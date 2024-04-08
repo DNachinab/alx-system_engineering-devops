@@ -1,0 +1,5 @@
+1. A single point of failure (SPOF) refers to various vulnerable aspects within a system, such as relying on a single server housing the sole instances of a web server, application server, and database. When any of these components fail, the entire system ceases to function.
+
+2. When maintenance is required, such as deploying new code that necessitates restarting the web server, downtime can extend beyond the anticipated duration. This occurs because the server relies on a single code base, which may be unavailable at that time. As a result, users are unable to access the website and its content, leading to a poor user experience and a decrease in traffic.
+
+3. If there's a surge in incoming traffic, scaling becomes challenging. Since the domain name directly points to the server without a load balancer, managing increased loads becomes more difficult. This limitation impacts the website's ability to handle a high volume of users accessing its content, potentially resulting in a subpar user experience or imposing a cap on the number of users the website can support.

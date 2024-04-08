@@ -1,0 +1,5 @@
+1. The issue with decryption lies in its resource and CPU-intensive nature. Offloading the decryption task to the load balancer allows the server to allocate its processing power to application tasks.
+
+2. The concern with decryption being down is that it halts the addition or updating of data, rendering certain features of the application inoperable.
+
+3. This occurs because if a bug exists in one component of one server, it will likely affect the same component in the other servers as well.
